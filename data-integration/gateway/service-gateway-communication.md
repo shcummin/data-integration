@@ -42,7 +42,7 @@ The following list describes FQDNs used by the gateway. These endpoints are requ
 
 | Public Cloud Domain names | Outbound ports | Description |
 | --- | --- | --- |
-| \*.download.microsoft.com |80 |Used to download the installer. The gateway app also uses this domain to check the version and gateway region. |
+| \*.download.microsoft.com |443 |Used to download the installer. The gateway app also uses this domain to check the version and gateway region. |
 | \*.powerbi.com |443 |Used to identify the relevant Power BI cluster. |
 | \*.analysis.windows.net |443 |Used to identify the relevant Power BI cluster. |
 | \*.login.windows.net, login.live.com, aadcdn.msauth.net, login.microsoftonline.com, *.microsoftonline-p.com |443 |Used to authenticate the gateway app for Microsoft Entra ID and OAuth2. Note that additional URLs could be required as part of the Microsoft Entra ID sign in process that can be unique to a tenant. |
